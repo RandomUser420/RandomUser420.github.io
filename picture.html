@@ -7,13 +7,16 @@
       </head>
   <body>
     <script>
+      var w =window.innerWidth;
+      var h = window.innerHeight;
       let img;
       function preload(){
         img= loadimage("sins.jpeg");
       }
       
       function setup(){
-        image(img,0,0);
+        image(img,0,0,500,500);
+        createCanvas(w,h)
       }
     </script>
   </body>
