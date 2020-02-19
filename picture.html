@@ -10,14 +10,17 @@
       var w =window.innerWidth;
       var h = window.innerHeight;
       let img;
+       function setup(){
+        image(img,0,0,500,500);
+        createCanvas(w,h)
+      }
+      
+      
       function preload(){
         img= loadimage("sins.jpeg");
       }
       
-      function setup(){
-        image(img,0,0,500,500);
-        createCanvas(w,h)
-      }
+
     </script>
   </body>
   
