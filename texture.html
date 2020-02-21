@@ -13,7 +13,7 @@ var pic;//sets global variable for your texture
 var w = window.innerWidth;
 var h = window.innerHeight;
 function preload(){
-  pic = loadImage("sins.jpeg")//puts image as texture variable
+  pic = createCapture(VIDEO)//puts image as texture variable
 }
 function setup(){
   createCanvas(w,h,WEBGL);
